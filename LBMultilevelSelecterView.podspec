@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "LBMultilevelSelecterView"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "iOS多级选择，例如地址，选择级数可完美自定义，支持单选、多选"
   spec.description  = "iOS多级选择，例如地址，选择级数可完美自定义，支持单选、多选。"
   spec.homepage     = "https://github.com/A1129434577/LBMultilevelSelecterView"

@@ -36,9 +36,12 @@
     return self;
 }
 
--(void)layoutSubviews{
-    [super layoutSubviews];
-    
+-(void)didMoveToSuperview{
+    [super didMoveToSuperview];
+    [self reloadData];
+}
+
+-(void)reloadData{    
     __weak typeof(self) weakSelf = self;
     [self.tableViewArray enumerateObjectsUsingBlock:^(UITableView * _Nonnull tableView, NSUInteger idx, BOOL * _Nonnull stop) {
         CGRect tableViewFrame = tableView.frame;

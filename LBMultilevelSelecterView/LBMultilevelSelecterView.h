@@ -51,6 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id <LBMultilevelSelecterViewDataSource> lb_dataSource;
 @property (nonatomic, weak, nullable) id <LBMultilevelSelecterViewDelegate> lb_delegate;
 
+-(void)reloadData;
+
 @end
 
 NS_ASSUME_NONNULL_END
